@@ -16,13 +16,43 @@
             <a href="#">Contact Us</a>
         </nav>
     </header>
-    <h3>About emjoe tech enterprise</h3>
+    <h3>This page is for contact purposes</h3>
+    <p>Please write to us using the form below and we will get in touch with you</p>
     <br>
     <form action="get">
-        <input type="text">
+        <label for="name">
+            Frist Name
+            <input type="text" name="firstname" placeholder="Enter first name">
+            Last Name
+            <input type="text" name="lastname" placeholder="Enter last name"> <br><br>
+        </label>
+        <label for="email">
+            Email
+            <input type="email" name="email" placeholder="Enter your email address"> <br><br>    
+        </label>
+        <label for="gender">
+            Gender <br>
+            Male
+            <input type="radio" name="gender" value="male"/>
+            Female
+            <input type="radio" name="gender" value="female"/> <br><br>    
+        </label>
+        <label for="message">
+            Your message <br>
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </label> <br> <br>
+        <label for="submission">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>    
+        </label>
     </form>
 </body><br><br><br><br>
 <footer>
+    <p><strong>You can contact us via our social medial account below</strong></p>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <br><br><br>
     &copy;2022. All rights reserved.
 </footer>
 </html>
